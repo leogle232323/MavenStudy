@@ -34,4 +34,10 @@ public class AppTest extends TestCase {
 		App obj = new App();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
+
+	public void test1() {
+		App obj = new App();
+		System.out.println(obj.generateUniqueKey());
+		Assert.assertTrue(true);
+	}
 }
